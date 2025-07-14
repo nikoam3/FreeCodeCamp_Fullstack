@@ -3,7 +3,7 @@
 ## Descripción
 Aplicación web desarrollada para la certificación **Front End Development Libraries** de freeCodeCamp. Muestra el clima en la ubicación actual del usuario usando geolocalización HTML5 y la API meteorológica de freeCodeCamp. Incluye un ícono dinámico según el clima y un botón para alternar entre Celsius y Fahrenheit.
 
-**Enlace para probarlo**: [https://weather-app.vercel.app/](https://weather-app.vercel.app/)
+**Enlace para probarlo**: [https://free-code-camp-fullstack-lip6.vercel.app/](https://free-code-camp-fullstack-lip6.vercel.app/)
 
 ## Características
 - Muestra ciudad, país, temperatura, y descripción del clima.
@@ -30,7 +30,7 @@ Nicolas Amaya para FreeCodeCamp
 ## Description
 A web application built for the **Front End Development Libraries** certification by freeCodeCamp. Displays the weather at the user's current location using HTML5 geolocation and the freeCodeCamp Weather API. Includes dynamic weather icons and a button to toggle between Celsius and Fahrenheit.
 
-**Live Demo**: [https://weather-app.vercel.app/](https://weather-app.vercel.app/)
+**Live Demo**: [https://free-code-camp-fullstack-lip6.vercel.app/](https://free-code-camp-fullstack-lip6.vercel.app/)
 
 ## Features
 - Displays city, country, temperature, and weather description.
