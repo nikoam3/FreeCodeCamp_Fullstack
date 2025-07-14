@@ -9,7 +9,7 @@ function App() {
   // Función para obtener una frase aleatoria
   const fetchQuote = async () => {
     try {
-      const response = await axios.get('http://api.quotable.io/random');
+      const response = await axios.get('api.quotable.io/random');
       setQuote({
         content: response.data.content,
         author: response.data.author,
