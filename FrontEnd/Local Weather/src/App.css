@@ -1,0 +1,48 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  background: linear-gradient(135deg, #87ceeb, #4682b4);
+  font-family: 'Montserrat', sans-serif;
+}
+
+.weather-card {
+  max-width: 400px;
+  width: 100%;
+  background: white;
+  border-radius: 15px;
+  padding: 20px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.weather-card:hover {
+  transform: scale(1.02);
+}
+
+.weather-icon {
+  font-size: 5rem;
+  color: #4682b4;
+}
+
+h2, h3 {
+  color: #333;
+}
+
+#description {
+  font-style: italic;
+  color: #666;
+}
+
+button {
+  font-size: 1.2rem;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  opacity: 0.9;
+}
