@@ -1,0 +1,42 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  background: linear-gradient(135deg, #4b79a1, #283e51);
+  font-family: 'Arial', sans-serif;
+}
+
+.clock-card {
+  max-width: 600px;
+  width: 100%;
+  background: white;
+  border-radius: 15px;
+  padding: 20px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.clock-card:hover {
+  transform: scale(1.02);
+}
+
+.clock-button {
+  transition: background-color 0.3s ease;
+}
+
+.clock-button:hover {
+  opacity: 0.9;
+}
+
+#time-left {
+  font-family: monospace;
+  color: #333;
+}
+
+#timer-label {
+  color: #555;
+}
