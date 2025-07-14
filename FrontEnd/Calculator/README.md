@@ -3,7 +3,7 @@
 ## Descripción
 Aplicación web desarrollada para la certificación **Front End Development Libraries** de freeCodeCamp. Implementa una calculadora que permite realizar operaciones matemáticas (+, -, *, /) con números enteros y decimales, respetando el orden de precedencia. Construida con React, Vite y Bootstrap.
 
-**Enlace para probarlo**: [https://javascript-calculator.vercel.app/](https://javascript-calculator.vercel.app/)
+**Enlace para probarlo**: [https://free-code-camp-fullstack-dbap.vercel.app/](https://free-code-camp-fullstack-dbap.vercel.app/)
 
 ## Características
 - Botones para números (0-9), operadores (+, -, *, /), decimal (.) y limpiar (AC).
@@ -30,7 +30,7 @@ Nicolas Amaya para FreeCodeCamp
 ## Description
 A web application built for the **Front End Development Libraries** certification by freeCodeCamp. Implements a calculator for basic arithmetic operations (+, -, *, /) with integers and decimals, respecting operator precedence. Built with React, Vite, and Bootstrap.
 
-**Live Demo**: [https://javascript-calculator.vercel.app/](https://javascript-calculator.vercel.app/)
+**Live Demo**: [https://free-code-camp-fullstack-dbap.vercel.app/](https://free-code-camp-fullstack-dbap.vercel.app/)
 
 ## Features
 - Buttons for numbers (0-9), operators (+, -, *, /), decimal (.), and clear (AC).
