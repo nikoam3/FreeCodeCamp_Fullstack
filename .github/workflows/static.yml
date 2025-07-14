@@ -37,7 +37,7 @@ jobs:
           node-version: '20' # Usa la versión de Node.js que soporta tu proyecto
 
       - name: Install Dependencies
-        run: npm ci
+        run: npm i
         working-directory: ./frontend/random-quote-machine # Indica la carpeta del proyecto
 
       - name: Build Project
