@@ -1,12 +1,53 @@
-# React + Vite
+# Máquina de Frases Aleatorias
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Español
 
-Currently, two official plugins are available:
+### Descripción
+Aplicación web desarrollada para la certificación Front End Development Libraries de freeCodeCamp. Genera frases aleatorias con sus autores usando la API de Quotable, permite obtener nuevas frases y compartirlas en Twitter. Construida con React, Vite y Bootstrap.
+Enlace para probarlo: [https://free-code-camp-fullstack.vercel.app/](https://free-code-camp-fullstack.vercel.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Características
+- Muestra una frase y autor aleatorios al cargar.
+- Botón New Quote (#new-quote) para nuevas frases.
+- Enlace Tweet (#tweet-quote) para compartir en Twitter.
+- Diseño responsivo con #quote-box.
+- Cumple todas las pruebas de freeCodeCamp.
 
-## Expanding the ESLint configuration
+### Tecnologías
+- React: Componentes dinámicos.
+- Vite: Construcción rápida.
+- Bootstrap (react-bootstrap): Estilizado responsivo.
+- Axios: Peticiones HTTP a la API de Quotable.
+- Font Awesome: Iconos de comillas y Twitter.
+- Vercel: Despliegue.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Autor
+Nicolas Amaya para freeCodeCamp.
+
+---
+
+# Random Quote Machine
+
+## English
+
+### Descripción
+A web application built for the Front End Development Libraries certification by freeCodeCamp. It displays random quotes with their authors using the Quotable API, allows generating new quotes, and sharing them on Twitter. Built with React, Vite, and Bootstrap.
+Live Demo: [https://free-code-camp-fullstack.vercel.app/](https://free-code-camp-fullstack.vercel.app/)
+
+### Features
+- Displays a random quote and author on load.
+- New Quote button (#new-quote) to fetch new quotes.
+- Tweet link (#tweet-quote) to share quotes on Twitter.
+- Responsive design with #quote-box.
+- Passes all freeCodeCamp tests.
+
+### Technologies
+- React: Dynamic components.
+- Vite: Fast build tool.
+- Bootstrap (react-bootstrap): Responsive styling.
+- Axios: HTTP requests to the Quotable API.
+- Font Awesome: Quote and Twitter icons.
+- Vercel: Deployment platform.
+
+### Author
+Nicolas Amaya for freeCodeCamp.
