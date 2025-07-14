@@ -3,7 +3,7 @@
 ## Descripción
 Aplicación web desarrollada para la certificación **Front End Development Libraries** de freeCodeCamp. Implementa un temporizador Pomodoro con sesiones de 25 minutos y pausas de 5 minutos, con controles para ajustar duraciones, iniciar/pausar, y reiniciar. Construida con React, Vite y Bootstrap.
 
-**Enlace para probarlo**: [https://pomodoro-clock.vercel.app/](https://pomodoro-clock.vercel.app/)
+**Enlace para probarlo**: [https://free-code-camp-fullstack-w8xo.vercel.app/](https://free-code-camp-fullstack-w8xo.vercel.app/)
 
 ## Características
 - Temporizador con sesiones (25 min) y pausas (5 min) en formato `mm:ss`.
@@ -30,7 +30,7 @@ Nicolas Amaya para FreeCodeCamp
 ## Description
 A web application built for the **Front End Development Libraries** certification by freeCodeCamp. Implements a Pomodoro timer with 25-minute sessions and 5-minute breaks, with controls to adjust durations, start/pause, and reset. Built with React, Vite, and Bootstrap.
 
-**Live Demo**: [https://pomodoro-clock.vercel.app/](https://pomodoro-clock.vercel.app/)
+**Live Demo**: [https://free-code-camp-fullstack-w8xo.vercel.app/](https://free-code-camp-fullstack-w8xo.vercel.app/)
 
 ## Features
 - Timer with 25-minute sessions and 5-minute breaks in `mm:ss` format.
