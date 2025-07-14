@@ -1,0 +1,131 @@
+/* Reset de estilos y configuración general */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f0f4f8;
+    color: #333;
+    padding: 20px;
+}
+
+/* Estilos para el título y la descripción */
+#title,
+#description {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#title {
+    font-size: 2.5em;
+    color: #2c3e50;
+}
+
+#description {
+    font-size: 1.2em;
+    color: #7f8c8d;
+}
+
+/* Estilos para el formulario */
+#survey-form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para etiquetas e inputs */
+label,
+input,
+select,
+textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+label {
+    font-size: 1.1em;
+    margin-bottom: 5px;
+    color: #2c3e50;
+}
+
+input,
+select,
+textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    outline: none;
+    border-color: #3498db;
+    box-shadow: 0 0 5px rgba(52, 152, 219, 0.5);
+}
+
+/* Estilos para el área de texto */
+textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+/* Estilos para los botones de radio y casillas */
+fieldset {
+    border: none;
+    margin-bottom: 20px;
+}
+
+legend {
+    font-size: 1.1em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #2c3e50;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    display: inline-block;
+    width: auto;
+    margin-right: 10px;
+}
+
+/* Estilos para el botón de enviar */
+#submit {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 12px;
+    font-size: 1.1em;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+#submit:hover {
+    background-color: #2980b9;
+}
+
+/* Diseño responsivo */
+@media (max-width: 600px) {
+    #survey-form {
+        padding: 15px;
+    }
+
+    #title {
+        font-size: 2em;
+    }
+
+    #description {
+        font-size: 1em;
+    }
+}

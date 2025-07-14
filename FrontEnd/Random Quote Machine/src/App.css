@@ -1,0 +1,55 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  background: linear-gradient(135deg, #6b7280, #1f2937);
+  font-family: 'Arial', sans-serif;
+}
+
+.quote-card {
+  max-width: 600px;
+  width: 100%;
+  background: white;
+  border-radius: 15px;
+  padding: 20px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.quote-card:hover {
+  transform: scale(1.02);
+}
+
+.quote-text {
+  font-size: 1.5rem;
+  font-style: italic;
+  color: #333;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.blockquote-footer {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+.quote-button {
+  transition: background-color 0.3s ease;
+}
+
+.quote-button:hover {
+  opacity: 0.9;
+}
+
+.fa-quote-left {
+  margin-right: 10px;
+  color: #007bff;
+}
+
+.fa-twitter {
+  margin-right: 5px;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Timestamp Microservice | freeCodeCamp.org</title>
+  <link rel="shortcut icon" href="https://cdn.freecodecamp.org/universal/favicons/favicon-32x32.png"
+    type="image/x-icon" />
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
+  <link href="../public/style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+  <h1>Timestamp Microservice</h1>
+  <hr />
+  <div class="container">
+    <h2>Descripción</h2>
+    <p>Esta API convierte fechas entre formato Unix (milisegundos) y formato UTC. Soporta fechas en formato ISO (ej.
+      "2015-12-25") y timestamps Unix (ej. "1451001600000"). Si no se proporciona una fecha, devuelve la fecha actual.
+    </p>
+
+    <h2>Ejemplos de uso:</h2>
+    <ul>
+      <li><a href="/api/2015-12-25">https://desarrollobackendapifcc-production.up.railway.app/api/2015-12-25</a></li>
+      <li><a href="/api/1451001600000">https://desarrollobackendapifcc-production.up.railway.app/api/1451001600000</a>
+      </li>
+      <li><a href="/api/">/api/</a> Fecha actual</li>
+    </ul>
+
+    <h2>Ejemplo de salida:</h2>
+    <p>
+      <code>{"unix":1451001600000, "utc":"Fri, 25 Dec 2015 00:00:00 GMT"}</code>
+    </p>
+    <p>Para fechas inválidas:</p>
+    <p>
+      <code>{"error":"Invalid Date"}</code>
+    </p>
+  </div>
+  <div class="footer">
+    <p>Desarrollado por Nicolás Amaya para <a href="https://www.freecodecamp.org/">freeCodeCamp.org</a></p>
+  </div>
+</body>
+
+</html>

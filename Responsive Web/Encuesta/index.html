@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Encuesta</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1 id="title">Formulario de Encuesta</h1>
+    <p id="description">Por favor, completa esta encuesta para ayudarnos a mejorar nuestros servicios.</p>
+
+    <form id="survey-form">
+        <!-- Campo de Nombre -->
+        <label id="name-label" for="name">Nombre:</label>
+        <input type="text" id="name" name="name" placeholder="Ingresa tu nombre" required>
+
+        <!-- Campo de Correo Electrónico -->
+        <label id="email-label" for="email">Correo Electrónico:</label>
+        <input type="email" id="email" name="email" placeholder="Ingresa tu correo electrónico" required>
+
+        <!-- Campo de Edad -->
+        <label id="number-label" for="number">Edad (opcional):</label>
+        <input type="number" id="number" name="number" min="13" max="120" placeholder="Ingresa tu edad">
+
+        <!-- Menú Desplegable -->
+        <label for="dropdown">¿Cómo nos conociste?</label>
+        <select id="dropdown" name="dropdown" required>
+            <option value="">Selecciona una opción</option>
+            <option value="amigo">Un amigo</option>
+            <option value="internet">Internet</option>
+            <option value="anuncio">Anuncio</option>
+            <option value="otro">Otro</option>
+        </select>
+
+        <!-- Botones de Radio -->
+        <fieldset>
+            <legend>¿Recomendarías nuestro servicio?</legend>
+            <label><input type="radio" name="recommend" value="definitely" required> Definitivamente</label>
+            <label><input type="radio" name="recommend" value="maybe"> Tal vez</label>
+            <label><input type="radio" name="recommend" value="not-sure"> No estoy seguro</label>
+        </fieldset>
+
+        <!-- Casillas de Verificación -->
+        <fieldset>
+            <legend>¿Qué te gustaría que mejoráramos? (Selecciona todas las que apliquen)</legend>
+            <label><input type="checkbox" name="improvement" value="frontend"> Interfaz de usuario</label>
+            <label><input type="checkbox" name="improvement" value="backend"> Rendimiento</label>
+            <label><input type="checkbox" name="improvement" value="features"> Más funciones</label>
+            <label><input type="checkbox" name="improvement" value="support"> Soporte al cliente</label>
+        </fieldset>
+
+        <!-- Área de Texto -->
+        <label for="comments">Comentarios adicionales:</label>
+        <textarea id="comments" name="comments" placeholder="Escribe tus comentarios aquí..."></textarea>
+
+        <!-- Botón de Enviar -->
+        <button type="submit" id="submit">Enviar</button>
+    </form>
+</body>
+
+</html>
