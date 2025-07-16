@@ -3,7 +3,7 @@
 ## Descripción
 Aplicación web desarrollada para la certificación **Front End Development Libraries** de freeCodeCamp. Utiliza la API de MediaWiki para buscar entradas de Wikipedia y mostrar una entrada aleatoria. Incluye un cuadro de búsqueda y un botón para artículos aleatorios, con diseño responsivo.
 
-**Enlace para probarlo**: [https://wikipedia-viewer.vercel.app/](https://wikipedia-viewer.vercel.app/)
+**Enlace para probarlo**: [https://free-code-camp-fullstack-9tbd.vercel.app/](https://free-code-camp-fullstack-9tbd.vercel.app/)
 
 ## Características
 - Busca entradas de Wikipedia con título, extracto, y enlace.
@@ -29,7 +29,7 @@ Nicolas Amaya para FreeCodeCamp
 ## Description
 A web application built for the **Front End Development Libraries** certification by freeCodeCamp. Uses the MediaWiki API to search Wikipedia entries and display a random article. Includes a search input and a random article button, with responsive design.
 
-**Live Demo**: [https://wikipedia-viewer.vercel.app/](https://wikipedia-viewer.vercel.app/)
+**Live Demo**: [https://free-code-camp-fullstack-9tbd.vercel.app/](https://free-code-camp-fullstack-9tbd.vercel.app/)
 
 ## Features
 - Search Wikipedia entries with title, snippet, and link.
