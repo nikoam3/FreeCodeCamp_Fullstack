@@ -1,0 +1,66 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+  font-family: 'Montserrat', sans-serif;
+}
+
+.wiki-card {
+  max-width: 600px;
+  width: 100%;
+  background: white;
+  border-radius: 15px;
+  padding: 20px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.wiki-card:hover {
+  transform: scale(1.02);
+}
+
+.result-list-container {
+  max-height: 400px;
+  /* Limita la altura del contenedor */
+  overflow-y: auto;
+  /* Barra de desplazamiento vertical */
+  border: 1px solid #e0e0e0;
+  /* Borde para estética */
+  border-radius: 5px;
+}
+
+.result-item {
+  padding: 15px;
+  border: none;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.result-title {
+  color: #2a0845;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.result-title:hover {
+  text-decoration: underline;
+}
+
+.result-snippet {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+button {
+  font-size: 1.2rem;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  opacity: 0.9;
+}
