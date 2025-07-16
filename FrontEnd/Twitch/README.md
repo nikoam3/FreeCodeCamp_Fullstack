@@ -3,7 +3,7 @@
 ## Descripción
 Aplicación web desarrollada para la certificación **Front End Development Libraries** de freeCodeCamp. Utiliza la API proxy de freeCodeCamp para mostrar el estado de streamers de Twitch, incluyendo `freecodecamp`. Permite ver si están online, offline, o si la cuenta está cerrada, con enlaces a los canales y detalles de transmisión.
 
-**Enlace para probarlo**: [https://twitch-api.vercel.app/](https://twitch-api.vercel.app/)
+**Enlace para probarlo**: [https://free-code-camp-fullstack-ap7w.vercel.app/](https://free-code-camp-fullstack-ap7w.vercel.app/)
 
 ## Características
 - Muestra el estado (online/offline/cerrado) de streamers de Twitch.
@@ -31,7 +31,7 @@ Nicolas Amaya para FreeCodeCamp
 ## Description
 A web application built for the **Front End Development Libraries** certification by freeCodeCamp. Uses the freeCodeCamp Twitch API proxy to display the status of Twitch streamers, including `freecodecamp`. Shows whether they are online, offline, or if the account is closed, with links to channels and stream details.
 
-**Live Demo**: [https://twitch-api.vercel.app/](https://twitch-api.vercel.app/)
+**Live Demo**: [https://free-code-camp-fullstack-ap7w.vercel.app/](https://free-code-camp-fullstack-ap7w.vercel.app/)
 
 ## Features
 - Displays streamer status (online/offline/closed).
