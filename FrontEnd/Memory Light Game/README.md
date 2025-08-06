@@ -3,7 +3,7 @@
 ## Descripción
 Aplicación web desarrollada para la certificación **Front End Development Libraries** de freeCodeCamp. Reproduce una secuencia aleatoria de botones de colores con sonidos, permite al usuario repetirla, añade pasos al completarla correctamente, notifica errores, y soporta modo estricto y victoria en 20 pasos.
 
-**Enlace para probarlo**: [https://simon-game.vercel.app/](https://simon-game.vercel.app/)
+**Enlace para probarlo**: [https://free-code-camp-fullstack-5u5e.vercel.app/](https://free-code-camp-fullstack-5u5e.vercel.app/)
 
 ## Características
 - Secuencia aleatoria de botones (verde, rojo, amarillo, azul).
@@ -22,8 +22,7 @@ Aplicación web desarrollada para la certificación **Front End Development Libr
 - **Vercel**: Despliegue.
 
 ## Autor
-[Tu Nombre o Usuario de GitHub]  
-- GitHub: [https://github.com/tu-usuario](https://github.com/tu-usuario)
+Amaya Nicolas para FreeCodeCamp
 
 ---
 
@@ -32,7 +31,7 @@ Aplicación web desarrollada para la certificación **Front End Development Libr
 ## Description
 A web application built for the **Front End Development Libraries** certification by freeCodeCamp. Plays a random sequence of colored buttons with sounds, allows the user to repeat it, adds steps upon correct completion, notifies errors, and supports strict mode and victory at 20 steps.
 
-**Live Demo**: [https://simon-game.vercel.app/](https://simon-game.vercel.app/)
+**Live Demo**: [https://free-code-camp-fullstack-5u5e.vercel.app/](https://free-code-camp-fullstack-5u5e.vercel.app/)
 
 ## Features
 - Random sequence of buttons (green, red, yellow, blue).
@@ -51,5 +50,4 @@ A web application built for the **Front End Development Libraries** certificatio
 - **Vercel**: Deployment platform.
 
 ## Author
-[Your Name or GitHub Username]  
-- GitHub: [https://github.com/your-username](https://github.com/your-username)
+Amaya Nicolas by FreeCodeCamp
