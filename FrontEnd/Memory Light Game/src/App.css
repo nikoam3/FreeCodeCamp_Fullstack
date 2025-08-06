@@ -1,0 +1,75 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  background: linear-gradient(135deg, #6b7280, #1f2937);
+  font-family: 'Montserrat', sans-serif;
+}
+
+.game-card {
+  max-width: 500px;
+  width: 100%;
+  background: white;
+  border-radius: 15px;
+  padding: 20px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.game-card:hover {
+  transform: scale(1.02);
+}
+
+.simon-board {
+  display: grid;
+  gap: 10px;
+  padding: 10px;
+}
+
+.simon-button {
+  height: 120px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+}
+
+.simon-button.green {
+  background-color: #22c55e;
+}
+
+.simon-button.red {
+  background-color: #ef4444;
+}
+
+.simon-button.yellow {
+  background-color: #eab308;
+}
+
+.simon-button.blue {
+  background-color: #3b82f6;
+}
+
+.simon-button.active {
+  opacity: 0.6;
+}
+
+button,
+.form-check {
+  font-size: 1.2rem;
+  transition: background-color 0.3s ease;
+}
+
+button:hover,
+.form-check-input:hover {
+  opacity: 0.9;
+}
+
+.controls {
+  max-width: 300px;
+  margin: auto;
+}

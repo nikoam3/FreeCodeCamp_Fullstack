@@ -3,7 +3,7 @@
 ## Descripción
 Aplicación web desarrollada para la certificación **Front End Development Libraries** de freeCodeCamp. Permite jugar al tres en raya contra una computadora o bien, con un compañero, elegir entre X u O, y reiniciar automáticamente al finalizar.
 
-**Enlace para probarlo**: [https://tic-tac-toe.vercel.app/](https://tic-tac-toe.vercel.app/)
+**Enlace para probarlo**: [https://free-code-camp-fullstack-7p6h.vercel.app/](https://free-code-camp-fullstack-7p6h.vercel.app/)
 
 ## Características
 - Juego contra la computadora con algoritmo Minimax.
@@ -28,7 +28,7 @@ Nicolas Amaya para FreeCodeCamp
 ## Description
 A web application built for the **Front End Development Libraries** certification by freeCodeCamp. Allows playing tic-tac-toe against an unbeatable computer or a partner, choosing X or O, and auto-restarting after a win or draw.
 
-**Live Demo**: [https://tic-tac-toe.vercel.app/](https://tic-tac-toe.vercel.app/)
+**Live Demo**: [https://free-code-camp-fullstack-7p6h.vercel.app/](https://free-code-camp-fullstack-7p6h.vercel.app/)
 
 ## Features
 - Play against the computer with Minimax algorithm.
