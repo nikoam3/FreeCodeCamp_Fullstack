@@ -83,14 +83,14 @@ function App() {
   };
 
   return (
-    <Container id="clock" className="position-absolute top-50 start-50 translate-middle">
-      <Card className="clock-card shadow-lg">
+    <Container id="clock" className="">
+      <Card className="position-absolute top-50 start-50 translate-middle clock-card shadow-lg">
         <Card.Body>
           <h1 className="text-center mb-4">25 + 5 Clock</h1>
           <div className="d-flex justify-content-between mb-4">
             <div>
               <h3 id="break-label">Break Length</h3>
-              <div className="d-flex align-items-center">
+              <div className="d-flex align-items-center justify-content-between">
                 <Button
                   id="break-decrement"
                   variant="outline-primary"
@@ -114,7 +114,7 @@ function App() {
             </div>
             <div>
               <h3 id="session-label">Session Length</h3>
-              <div className="d-flex align-items-center">
+              <div className="d-flex align-items-center justify-content-between">
                 <Button
                   id="session-decrement"
                   variant="outline-primary"
